@@ -28,21 +28,24 @@ body {
     text-align: center;
 }
 
+.header{
+    margin-bottom: 15px;
+}
+
 .logo {
-    width: 120px;
+    width: 110px;
     height: auto;
     margin-bottom: 10px;
 }
 
 .sub-text{
-    font-size: 12px;
+    font-size: 13px;
     font-style: italic;
 }
 
 h1 {
-    color: #1a3b6e;
+    color: #3963a2;
     font-size: 13px;
-    margin-bottom: 20px;
     line-height: 1.4;
 }
 
@@ -77,8 +80,6 @@ h1 {
     flex-shrink: 0;
     object-fit: contain;
 }
-
-
 
 .divider {
     display: flex;
@@ -145,6 +146,7 @@ h1 {
 }
 .front {
     display: flex;
+    align-items: center;
     position: relative;
     width: 100%;
     padding: 10px 15px;
