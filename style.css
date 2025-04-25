@@ -34,9 +34,14 @@ body {
     margin-bottom: 10px;
 }
 
+.sub-text{
+    font-size: 12px;
+    font-style: italic;
+}
+
 h1 {
     color: #1a3b6e;
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 20px;
     line-height: 1.4;
 }
@@ -121,4 +126,22 @@ h1 {
 .highlight-text {
     font-size: 150%;
     font-weight: 700;
+}
+
+@media screen and (max-width: 440px) {
+    .container{
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container{
+        height: fit-content;
+    }
+
+    .btn{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
